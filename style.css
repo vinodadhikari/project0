@@ -1,0 +1,21 @@
+body{
+  background-color: #f23363;
+}
+#h1 {
+  text-align: center;
+  font-family: sans;
+  font-size: 90px;
+}
+
+#div-index{
+  background-color: #ed837b;
+  border: 5px groove pink;
+  margin: 20px;
+  margin-right: 840px;
+  padding: 20px;
+  font-size: 17px;
+}
+
+a:hover{
+  font-size: 90%;
+}
