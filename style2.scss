@@ -1,9 +1,15 @@
-$color: #64b34f;
-.div{
-  background-color: $color;
+$px: 10px;
+#hp-flim-7, #hp-flim-8{
+  padding: $px;
 }
 
-#div-index{
-  color: black;
-  font-size: 20px;
+/*@media (min-width: 500px) {
+body {
+    b;
 }
+}
+@media (max-width: 499px) {
+body {
+    background-color: ;
+}
+}*/
