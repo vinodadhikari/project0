@@ -1,5 +1,5 @@
 body{
-  background-color: #c92c59 ;
+  background-color: grey;
   font-family: fantasty;
   font-size: 20px;
   color: white;
@@ -8,32 +8,52 @@ body{
   text-align: center;
   font-family: sans;
   font-size: 90px;
+  padding-top:40px;
+}
+
+h2{
+  color: black;
 }
 
 #div-index{
   border: 5px groove pink;
-  margin: 20%;
+  margin: 10%;
   padding: 20px;
   font-size: 17px;
   color: white;
+}
+#follow{
+  padding:10px;
+  float: right;
+  border: 2px solid red;
+  margin: 1%;
 }
 
 
 #intro{
   margin: 30px;
-  padding: 15px;
+  padding: 19px;
   color: white;
 }
+
 
 
 a:hover{
   color: red;
 }
 
+.alert{
+  text-align: center;
+}
+
 .div{
   margin: 20px;
   border: 4px outset grey;
   padding: 40px;
+}
+
+#hp-flim-7, #hp-flim-8{
+  padding: 10px;
 }
 
 .col{
@@ -47,7 +67,7 @@ button {
 }
 
 button:hover {
-  background-color: #e08d43;
+  background-color: grey;
   font-size: 20px;
   cursor: pointer;
 }
@@ -57,10 +77,10 @@ button{
   color: black;
 }
 
-#div-contact{
+.contact{
   text-align: center;
-  margin: 70px;
-  padding:10px;
+  margin: 10px;
+  padding: 10px;
 }
 .container{
   display: flex;
