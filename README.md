@@ -22,10 +22,14 @@ It contains:
  1.table
  2.a button to return the main page
 
-Subpage: cast info
+Subpage: cast.html
 
 If contains:
  1.Grid 
  2.images
  3.buttons to return main page and to go character page
 
+Subpage: more-books.html
+ 
+It contains:
+ 1.@media query
