@@ -1,15 +1,42 @@
-$px: 10px;
-#hp-flim-7, #hp-flim-8{
-  padding: $px;
+/* scss- variable and nesting*/
+$color: yellow;
+
+ul  li{
+  a{
+    color: $color;
+  }
 }
 
-/*@media (min-width: 500px) {
-body {
-    b;
+span{
+  a{
+    color: $color;
+  }
 }
+/*scss inheritence*/
+
+%follow{
+  font-weight: bold;
+  font-size: 40px;
+  padding: 30px;
+
 }
-@media (max-width: 499px) {
-body {
-    background-color: ;
+
+#tt{
+  @extend %follow;
+  a{
+    color: white;
+  }
+
 }
-}*/
+#ig{
+  @extend %follow;
+  a{
+    color: black;
+  }
+}
+#fb{
+  @extend %follow;
+  a{
+    color: blue;
+  }
+}
