@@ -1,0 +1,23 @@
+/* scss- variable and nesting*/
+ul li a {
+  color: yellow; }
+
+span a {
+  color: yellow; }
+
+/*scss inheritence*/
+#tt, #ig, #fb {
+  font-weight: bold;
+  font-size: 40px;
+  padding: 30px; }
+
+#tt a {
+  color: white; }
+
+#ig a {
+  color: black; }
+
+#fb a {
+  color: blue; }
+
+/*# sourceMappingURL=style2.css.map */
